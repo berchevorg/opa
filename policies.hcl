@@ -1,4 +1,3 @@
-policy "sunny-day" {
-    #enforcement_level = "hard-mandatory"
-    enforcement_level = "soft-mandatory"
+policy "policy1" {
+   query = "data.terraform.policy1.deny"
 }
